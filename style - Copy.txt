@@ -1,0 +1,247 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+
+background:#edf2ff;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+height:100vh;
+
+}
+
+.phone{
+
+width:360px;
+
+padding:20px;
+
+}
+
+.card{
+
+background:white;
+
+border-radius:25px;
+
+padding:35px 25px;
+
+box-shadow:0 10px 40px rgba(0,0,0,.08);
+
+position:relative;
+
+}
+
+.close{
+
+position:absolute;
+
+top:18px;
+
+right:18px;
+
+font-size:22px;
+
+cursor:pointer;
+
+}
+
+.logo{
+
+width:180px;
+
+display:block;
+
+margin:25px auto 40px;
+
+}
+
+input{
+
+width:100%;
+
+padding:14px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+font-size:15px;
+
+margin-bottom:12px;
+
+outline:none;
+
+}
+
+input:focus{
+
+border-color:#3b82f6;
+
+}
+
+.passwordBox{
+
+position:relative;
+
+}
+
+.passwordBox i{
+
+position:absolute;
+
+right:15px;
+
+top:16px;
+
+cursor:pointer;
+
+color:#999;
+
+}
+
+.forgot{
+
+text-align:right;
+
+margin-bottom:18px;
+
+}
+
+.forgot a{
+
+text-decoration:none;
+
+font-size:13px;
+
+color:#1877f2;
+
+}
+
+button{
+
+width:100%;
+
+padding:14px;
+
+border:none;
+
+border-radius:10px;
+
+background:#3b82f6;
+
+color:white;
+
+font-size:16px;
+
+font-weight:600;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+button:hover{
+
+background:#2563eb;
+
+}
+
+.divider{
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+margin:28px 0;
+
+font-size:13px;
+
+color:#888;
+
+}
+
+.divider span{
+
+flex:1;
+
+height:1px;
+
+background:#ddd;
+
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    width: 100%;
+    padding: 14px;
+
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    color: #385185;      /* Facebook text color */
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.facebook:hover{
+    background: #f7f7f7;
+    color: #385185;
+}
+
+.facebook-logo{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.signup a{
+
+color:#1877f2;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+@media(max-width:420px){
+
+.phone{
+
+width:100%;
+
+padding:10px;
+
+}
+
+.card{
+
+padding:30px 20px;
+
+border-radius:18px;
+
+}
+
+}
